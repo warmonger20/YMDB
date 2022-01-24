@@ -1,0 +1,50 @@
+.navbar-light .navbar-brand {
+    color: white;
+    font-size: 1.8rem;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.03rem;
+    cursor: pointer;
+}
+.navbar-light .navbar-brand:hover{
+    color: white;
+}
+.navigation{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-size: 1.1rem;
+}
+.dropdown-menu{
+    background-color: #343a40;
+    border: none;
+}
+.navigation a{
+    color: white;
+    opacity: 0.7;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    opacity: 0.7;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: black;
+}
+.navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+    opacity: 0.7;
+}
+.dropdown-item:hover{
+    background-color: #343a40;
+}
+.navigation a:hover{
+    color: black;
+    text-decoration: none;
+}
+.navbar{
+    color: rgba(242,244,246,.9);
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.4);
+}
+
+
+

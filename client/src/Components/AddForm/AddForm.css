@@ -1,0 +1,62 @@
+.addForm{
+    max-width: 300px;
+    margin: 200px auto;
+    margin-bottom: 10px;
+    overflow: auto;
+    position: relative;
+    margin-top: 100px;
+}
+@media (max-width: 700px)
+{
+  .addForm{
+    margin-top: 125px;
+  }
+}
+
+.addForm .addFormButton{
+    display: block;
+    width: 100%;
+    background-color: #7289da;
+    border-color: #7289da;
+    /* color: #2c2f33; */
+}
+.addFormButton:focus{
+  box-shadow: none;
+}
+
+.addForm .btn-primary:not(:disabled):not(.disabled):active{
+  background-color: #7289da;
+  border-color: #7289da;
+}
+
+.nthngToPreview{
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  font-size: 1.75rem;
+}
+
+.spinner-grow{
+  display: flex;
+  margin: 100px auto;
+}
+
+.addFormAlert{
+  position: fixed;
+  z-index: 2000;
+  width: 70%;
+  left: 15%;
+  top: 7.2%;
+  animation: fade-out 2s inherit;
+}
+@keyframes fade-out{
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+
+

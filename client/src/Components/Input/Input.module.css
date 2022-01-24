@@ -1,0 +1,29 @@
+.Field {
+    margin: 3% auto;
+    width: 90%;
+    border: 2px solid rgb(119, 86, 180);
+    border-radius: 0 7px 7px 0;
+
+}
+
+.Label {
+    display: block;
+    background-color: #ccc;
+    margin: 0;
+    padding: 0 15px;
+    border: none;
+    border-radius: 0 8px 0 0;
+    color: navy;
+}
+
+.Input {
+    height: 40px;
+    width: 100%;
+    background-color: #ccc;
+    margin: 0;
+    padding: 0 15px;
+    border-radius: 0 0 8px 0;
+    border: none;
+    outline: none;
+}
+

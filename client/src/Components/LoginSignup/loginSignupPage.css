@@ -1,0 +1,44 @@
+.loginPage{
+    background: url('../../3860710-01.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.loginPage .YMDb{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    margin-left: 60px;
+    padding-top: 10px;
+    letter-spacing: 0.03rem;
+}
+.loginForm{
+    max-width: 450px;
+    margin: auto;
+    padding-top: 115px ;
+    font-family: roboto;
+}
+.loginForm p{
+    font-size: 0.9rem;
+    opacity: 0.7;
+    font-weight: 300;
+    font-family: nunito;
+}
+.loginForm h2{
+    font-family: nunito;
+}
+.loginForm .form{
+    border: 1px solid #23272a;
+    border-radius: 0.5rem;
+    padding: 20px;
+    color: white;
+    background-color: #23272a;
+    position: relative;
+    box-shadow: 2px 3px 12px 4px rgba(0, 0, 0, 0.4);
+}
+.loginForm .loginBtn{
+    width: 100%;
+    background-color: #7289da;
+    border-color: #7289da;
+}
